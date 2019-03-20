@@ -32,7 +32,7 @@ io.on('connection',function(socket){
         var allConnectedClients = io.sockets.connected; //list os socket connected
         var send = []
         Object.keys(allConnectedClients).forEach(function(key){
-            var val = allConnectedClients[key]["nickname"] + ": " + allConnectedClients[key]["id"] ;
+            var val = allConnectedClients[key]["nickname"] + " " + allConnectedClients[key]["id"] ;
             send.push(val);
         });
 
