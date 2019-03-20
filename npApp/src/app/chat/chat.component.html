@@ -1,0 +1,51 @@
+<h1>Popup Chat</h1>
+<div ng-app=""></div>
+<div>
+<p> Usuarios conectados</p>
+<div *ngFor="let enum of outputList">
+    <label for="enum_answer_{{enum}}">
+      <input id="enum_answer_{{enum}}" [value]='enum' type="radio" name="enums" [(ngModel)]="dest">
+      {{enum}}
+    </label>
+  </div> 
+</div>         
+<button class="open-button" (click)="openForm()"><h1>Chat</h1></button>
+
+<div *ngIf="visible" id="myForm">
+<div class="form-container">
+
+<div>
+    <input type="text" placeholder="Name" [(ngModel)]="name"/>
+    <button id= "login" class = "btn3" (click)="sendName()">Login</button>
+    <br>
+    <br>
+<div>
+    <input type="text" placeholder="Mensaje"  [(ngModel)]="message"/>
+    <br>
+    <br>
+<div>
+    <select id="type" [(ngModel)]="type">
+        <option>individual</option>
+        <option>multichat</option>
+    </select>
+    <br>
+    <br>        
+    <input id="dest" type="text" placeholder="Socket destination" [(ngModel)]="dest"/>
+    <br>
+    <br>
+<div>
+<button id="enviar" class ="btn" (click)="sendMessage()">Enviar</button>
+<div  class ="multichat" >
+    <h2> Sala multichat </h2> 
+    <p *ngFor="let message of messages">
+        {{message}}
+    </p>
+</div>        
+<div class ="sala">
+    <h2> Sala individual</h2> 
+    <p *ngFor="let chat of sala">
+        {{chat}}
+    </p>
+</div>
+
+<button type="button" class="btn cancel" (click)="closeForm()">Close</button>
