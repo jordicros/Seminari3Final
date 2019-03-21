@@ -16,11 +16,11 @@
     "cors": "^2.8.5",
     "crypto": "0.0.3",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
     "express-handlebars": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
     "morgan": "^1.9.1",
     "socket.io": "^2.2.0",
-    "utf-8-validate": "^5.0.2",
-    "mongoose": "^5.4.19"
+    "utf-8-validate": "^5.0.2"
   }
 }

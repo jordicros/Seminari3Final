@@ -71,39 +71,39 @@ router.post('/register', (req, res) => {
     let events = [
       {
         "_id": "1",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Titanic",
+        "description": "James Cameron",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "2",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Avatar",
+        "description": "James Cameron",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "3",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "El Rey León",
+        "description": "Roger Allers",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "4",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Buscando a Nemo",
+        "description": "Andrew Stanton",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "5",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Harry Potter",
+        "description": "Chris Columbus",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "6",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Toy Story",
+        "description": "John Lasseter",
+        "date": "2019-03-21T18:25:43.511Z"
       }
     ]
     res.json(events)
@@ -113,39 +113,39 @@ router.post('/register', (req, res) => {
     let events = [
       {
         "_id": "1",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Entrenando a mi Dragon 3",
+        "description": "Dean DeBlois",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "2",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Capitana Marvel",
+        "description": "Anna Boden",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "3",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Campeones",
+        "description": "Javier Fesser",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "4",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Fast & Furious 8",
+        "description": "F. Gary Gray",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "5",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Perdiendo el este",
+        "description": "Nacho G. Velilla",
+        "date": "2019-03-21T18:25:43.511Z"
       },
       {
         "_id": "6",
-        "name": "Auto Expo",
-        "description": "lorem ipsum",
-        "date": "2012-04-23T18:25:43.511Z"
+        "name": "Green Book",
+        "description": "Peter Farrelly",
+        "date": "2019-03-21T18:25:43.511Z"
       }
     ]
     res.json(events)
